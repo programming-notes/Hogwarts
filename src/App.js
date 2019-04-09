@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 import './App.css';
+import CustomImage from './CustomImage'
 
 class App extends Component {
   state = {
@@ -25,10 +26,7 @@ class App extends Component {
               this.state.characters.map(character =>
                 <li className="character-card" key={character.name}>
                   <h6>{character.name}</h6>
-                  <div className="img-container">
-                    <div className={`overlay ${character.house}`}></div>
-                    <img src={character.image1} alt={character.name} />
-                  </div>
+                  <CustomImage character={character} />
                 </li>
               )
             }
