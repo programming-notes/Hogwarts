@@ -7,7 +7,16 @@ Deliverables:
 - Have a search form that allows you to search characters by name or house
 
 
+
 - Have 4 sections underneath the list that shows each Hogwarts house (Gryffindor, Slytherin, HufflePuff, Ravenclaw) as well as the image2 for the characters who belong to those houses
 - When you click on a character's image in the "House" section of the page it should display the character's name, house, role, and age. When you click on the house you should be able to change the house
 
 - Have a form to add characters on submit
+  - Do this optimistically (without using fetch)
+- Have 4 sections underneath the list that shows each Hogwarts house (Gryffindor, Slytherin, HufflePuff, Ravenclaw) as well as the image2 for the characters who belong to those houses
+- Have a form to add characters on submit
+  - Do this optimistically (without using fetch)
+
+
+BONUS:
+- refactor your app to send Post, Patch, and Delete requests

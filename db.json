@@ -81,5 +81,6 @@
       "image1": "https://pbs.twimg.com/profile_images/804157241582501888/LVK-Frfg_400x400.jpg",
       "image2": "https://medias.spotern.com/spots/w640/63721-1532336916.jpg"
     }
-  ]
+  ],
+  "houses": ["Gryffindor", "Slytherin", "HufflePuff", "Ravenclaw"]
 }
