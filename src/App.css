@@ -30,8 +30,13 @@
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin: auto;
+  margin: 10px auto 0 auto;
   box-shadow: 10px 10px 13px grey;
+}
+
+.character-card {
+  border: 1px solid grey;
+  padding-bottom: 40px;
 }
 
 .img-container img {
@@ -69,11 +74,11 @@
 }
 
 
-.img-container:hover .Gryffindor, 
-.img-container:hover .Slytherin, 
-.img-container:hover .Ravenclaw, 
-.img-container:hover .Hufflepuff {
-  animation: rotate 5s linear infinite;
+.img-container .Gryffindor, 
+.img-container .Slytherin, 
+.img-container .Ravenclaw, 
+.img-container .Hufflepuff {
+  animation: rotate 5s linear infinite, scaler 3.14s ease-in-out infinite alternate;
 }
 
 @keyframes rotate {
@@ -82,5 +87,14 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes scaler {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
   }
 }
