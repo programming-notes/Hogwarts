@@ -1,6 +1,7 @@
 {
-  "potter stuff": [
+  "potter_stuff": [
     {
+      "id": 1,
       "name": "Harry Potter",
       "age": 17,
       "house": "Gryffindor",
@@ -9,6 +10,7 @@
       "image2": "https://timedotcom.files.wordpress.com/2014/07/301386_full1.jpg"
     },
     {
+      "id": 2,
       "name": "Hermione Granger",
       "age": 17,
       "house": "Gryffindor",
@@ -17,6 +19,7 @@
       "image2": "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Hermione-HBP-hermione-granger-16048675-1919-2560.jpg/revision/latest?cb=20140628051753"
     },
     {
+      "id": 3,
       "name": "Ron Weasley",
       "age": 17,
       "house": "Gryffindor",
@@ -25,6 +28,7 @@
       "image2": "https://images.pottermore.com/bxd3o8b291gf/4kRGmTOvVYmIwsOikwcuUw/8b8f2e4ffcc1a5218bafe615f976abb0/Ron_Weasley_WB_F1_Ron_with_Scabbers_on_shoulder_00393692.jpg?w=1200"
     },
     {
+      "id": 4,
       "name": "Draco Malfoy",
       "age": 17,
       "house": "Slytherin",
@@ -33,6 +37,7 @@
       "image2": "https://qph.fs.quoracdn.net/main-qimg-0f9603b2605dce5b8dfb6d27028b02ab"
     },
     {
+      "id": 5,
       "name": "Severus Snape",
       "age": 38,
       "house": "Slytherin",
@@ -41,12 +46,40 @@
       "image2": "https://vignette.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg/revision/latest?cb=20150307193047"
     },
     {
+      "id": 6,
       "name": "Minerva McGonagall",
       "age": 75,
       "house": "Gryffindor",
       "role": "professor",
       "image1": "https://fsmedia.imgix.net/21/fd/33/16/2844/4ec3/bae9/57d38001e216/sonserina.jpeg?rect=0%2C0%2C1920%2C959&dpr=2&auto=format%2Ccompress&w=650",
       "image2": "https://imgix.bustle.com/rehost/2016/9/13/4685a819-e442-4e36-af5b-9c8c42bfbf00.jpg?w=970&h=582&fit=crop&crop=faces&auto=format&q=70"
+    },
+    {
+      "id": 7,
+      "name": "Cho Chang",
+      "age": 18,
+      "house": "Ravenclaw",
+      "role": "student",
+      "image1": "https://www.thebillfold.com/wp-content/uploads/2014/08/0M94d8hND0wAf58xN.jpeg",
+      "image2": "https://img1.nickiswift.com/img/gallery/whatever-happened-to-the-girl-who-played-cho-chang-in-harry-potter/intro-1542052562.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Sybill Trelawney",
+      "age": "idk",
+      "house": "Ravenclaw",
+      "role": "professor",
+      "image1": "https://vignette.wikia.nocookie.net/harry-potter/images/6/60/Professor_Trelawney.jpg/revision/latest/scale-to-width-down/266?cb=20110421043324",
+      "image2": "https://images.pottermore.com/bxd3o8b291gf/6RibwCBnH2cA02UUwM6wAa/88c7414cfce63938dbedb2afa730959c/SybilTrelawney_WB_F5_TrelawneyInCourtyardWithBagLookingUpset_Still_080615_Land.jpg?w=1200"
+    },
+    {
+      "id": 8,
+      "name": "Newton Scamander",
+      "age": "idk",
+      "house": "Hufflepuff",
+      "role": "student",
+      "image1": "https://pbs.twimg.com/profile_images/804157241582501888/LVK-Frfg_400x400.jpg",
+      "image2": "https://medias.spotern.com/spots/w640/63721-1532336916.jpg"
     }
   ]
 }

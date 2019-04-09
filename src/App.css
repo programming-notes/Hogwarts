@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,11 +17,70 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
+.characters-list ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-gap: 10px 10px;
+}
+
+.character-card .img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  box-shadow: 10px 10px 13px grey;
+}
+
+.img-container img {
+  position: absolute;
+  left: -30%;
+  width: 300px;
+  height: 220px;
+
+}
+
+.img-container .overlay {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 100;
+}
+
+.Gryffindor {
+  background-image: linear-gradient(60deg, rgba(116, 0, 1, 0.3),rgba(255, 255, 255, 0.2),rgba(238, 186, 48, 0.5));
+}
+
+.Slytherin {
+  background-image: linear-gradient(60deg, rgba(93, 252, 172, 0.5), rgba(0, 0, 0, 0.2), rgba(191, 191, 191, 0.3));
+}
+
+.Ravenclaw {
+  background-image: linear-gradient(60deg, rgba(2, 29, 177, 0.8), rgba(255, 255, 255, 0.1), rgba(148, 107, 45, 0.5));
+}
+
+.Hufflepuff {
+  background-image: linear-gradient(60deg, rgba(236, 185, 57, 0.5), rgba(114, 98, 85, 0.2), rgba(0, 0, 0, 0.5));
+}
+
+
+.img-container:hover .Gryffindor, 
+.img-container:hover .Slytherin, 
+.img-container:hover .Ravenclaw, 
+.img-container:hover .Hufflepuff {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
